@@ -10,11 +10,6 @@
       });
       return false;
    });
-   
-  $('#reviews').on('slid.bs.carousel', function () {
-    $(this).find('.item').attr('aria-hidden', 'true');
-    $(this).find('.item.active').attr('aria-hidden', 'false');
-  });
 
   // Gallery carousel (uses the Owl Carousel library)
   $(".gallery-carousel").owlCarousel({

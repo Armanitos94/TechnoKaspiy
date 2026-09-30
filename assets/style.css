@@ -964,3 +964,146 @@ p{
 .modal-body iframe {
   width: 100% !important;
 }
+
+.schedule-header {
+    max-width: 760px;
+    margin-bottom: 45px;
+}
+
+.schedule-eyebrow {
+    display: inline-block;
+    margin-bottom: 10px;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .08em;
+    color: #6fb5ff;
+}
+
+.schedule-description {
+    max-width: 620px;
+    margin: 20px 0;
+    font-size: 18px;
+    line-height: 1.55;
+    opacity: .85;
+}
+
+.schedule-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.schedule-meta span {
+    padding: 7px 12px;
+    border: 1px solid rgba(255,255,255,.22);
+    border-radius: 30px;
+    font-size: 13px;
+}
+
+.schedule-days {
+    display: flex;
+    align-items: stretch;
+}
+
+.schedule-days > div {
+    display: flex;
+}
+
+.schedule-card {
+    width: 100%;
+    padding: 28px;
+    background: rgba(255,255,255,.06);
+    border: 1px solid rgba(255,255,255,.14);
+    border-radius: 18px;
+}
+
+.schedule-date {
+    margin-bottom: 30px;
+}
+
+.schedule-number {
+    display: block;
+    margin-bottom: 14px;
+    font-size: 58px;
+    line-height: 1;
+    font-weight: 700;
+    color: #67adff;
+}
+
+.schedule-weekday {
+    display: block;
+    margin-bottom: 6px;
+    font-size: 14px;
+    opacity: .65;
+}
+
+.schedule-date h3 {
+    margin: 0;
+    font-size: 26px;
+}
+
+.schedule-timeline {
+    position: relative;
+}
+
+.schedule-item {
+    position: relative;
+    padding: 0 0 22px 20px;
+    border-left: 2px solid rgba(255,255,255,.14);
+}
+
+.schedule-item:last-child {
+    padding-bottom: 0;
+}
+
+.schedule-item::before {
+    content: "";
+    position: absolute;
+    left: -6px;
+    top: 4px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #68b0ff;
+}
+
+.schedule-time {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 13px;
+    font-weight: 700;
+    color: #72b7ff;
+}
+
+.schedule-item strong {
+    display: block;
+    margin-bottom: 4px;
+    font-size: 15px;
+}
+
+.schedule-item p {
+    margin: 0;
+    font-size: 13px;
+    line-height: 1.45;
+    opacity: .6;
+}
+
+.schedule-break strong {
+    opacity: .75;
+}
+
+.schedule-action {
+    margin-top: 35px;
+}
+
+@media (max-width: 991px) {
+    .schedule-days {
+        display: block;
+    }
+
+    .schedule-days > div {
+        display: block;
+        margin-bottom: 20px;
+    }
+}
