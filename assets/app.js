@@ -1,9 +1,16 @@
 /* Bootstrap 3.3.6 provides dropdowns, navbar collapse, FAQ and carousel. */
 (function ($) {
   'use strict';
-  $('.navbar-nav a[href^="#"]').not('[data-toggle]').on('click', function () {
-    if ($('.navbar-toggle').is(':visible')) $('#navigation').collapse('hide');
-  });
+   $('a[href^="#"]').click(function() {
+      $("html, body").animate({
+         scrollTop: $($(this).attr("href")).offset().top - 65 + "px"
+      }, {
+         duration: 500,
+         easing: "swing"
+      });
+      return false;
+   });
+   
   $('#reviews').on('slid.bs.carousel', function () {
     $(this).find('.item').attr('aria-hidden', 'true');
     $(this).find('.item.active').attr('aria-hidden', 'false');
