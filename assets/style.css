@@ -919,40 +919,40 @@ p{
 /*--------------------------------------------------------------
 # Gallery Section
 --------------------------------------------------------------*/
-#gallery {
+#how-it-was {
   padding: 60px;
   overflow: hidden;
 }
 
-#gallery .owl-nav, #gallery .owl-dots {
+#how-it-was .owl-nav, #how-it-was .owl-dots {
   margin-top: 25px;
   text-align: center;
 }
 
-#gallery .owl-item {
+#how-it-was .owl-item {
   border-left: 2px solid #fff;
   border-right: 2px solid #fff;
 }
 
-#gallery .owl-dot {
+#how-it-was .owl-dot {
   display: inline-block;
   margin: 0 5px;
   width: 12px;
   height: 12px;
   border-radius: 50%;
-  background-color: #ffffff;
+  background-color: #6198dc;
 }
 
-#gallery .owl-dot.active {
-  background-color: #8f00ff;
+#how-it-was .owl-dot.active {
+  background-color: #201a73;
 }
 
-#gallery .gallery-carousel .owl-stage-outer {
+#how-it-was .gallery-carousel .owl-stage-outer {
   overflow: visible;
 }
 
-#gallery .gallery-carousel .center {
-  border: 6px solid #8f00ff;
+#how-it-was .gallery-carousel .center {
+  border: 6px solid #201a73;
   margin: -10px;
   box-sizing: content-box;
   padding: 4px;
